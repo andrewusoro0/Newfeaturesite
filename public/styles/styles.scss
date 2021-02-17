@@ -1,0 +1,86 @@
+$black:#242424;
+$gray:#505050;
+
+
+//===========================
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.intro-text{
+ text-align: center;
+ color: $black;
+ font-family: Montserrat,sans-serif;
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin: 0 0 3rem;
+  font-weight: 100;
+  padding: 3%;
+}
+
+
+.left-main{
+    font-family: Lora,serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin: 0 0 1em;
+    color:$gray;
+}
+
+
+.head{
+    display: inline-block;
+    vertical-align: middle;
+    width: 58%; 
+}
+
+
+.section-img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.right-img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: auto; 
+}
+.copywrite{
+    text-align: center;
+    padding: 10px;
+}
+
+.coordinator{
+    font-size: .9em;
+    line-height: 2;
+    color: #333;
+    font-family: 'Open Sans',sans-serif;
+}
+
+main{
+    display: block;
+    margin: 0 0 8em;
+    padding: 0 7%;
+}
+.resume{
+    list-style: none;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: .5em .8em;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
