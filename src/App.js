@@ -12,6 +12,9 @@ import Design from "./components/Design.jsx";
 import Development from "./components/Development.jsx";
 import Footer from "./components/Footer"
 import Copywrite from "./components/Copywrite.jsx";
+import About from './components/pages/About'
+import Blog from './components/pages/Blog'
+import Contact from './components/pages/Contact'
 
 
 function App() {
@@ -20,7 +23,10 @@ function App() {
     <Router>
     <Navbar />
     <Switch>
-    <Route path='/home' exact />
+    <Route path='/' exact />
+    <Route path='/about' component={About} />
+    <Route path='/contact' component={Contact} />
+    <Route path='/blog' component={Blog} />
     </Switch>
     </Router>
     <Welcome 

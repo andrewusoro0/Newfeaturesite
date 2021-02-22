@@ -7,15 +7,15 @@ function Buzzword(){
         <>  
          <main>
          <div className="head">
-            <h2 className="left-main">Project Coordinator</h2>
-           <p className="coordinator">Team LeadershipI tend to gravitate towards leadership roles in IT. I bring to the table strong experience leading distributed and local teams towards the victory line, spanning across multiple product types and industries.
-            I lean on my years of personal programming experience, as well as group and pair programming history, to help look ahead for potential road blocks or hurdles along the way. I am comfortable in communications with stakeholders
-            or client discussions, and help to foster a team culture to develop and release strong products. I utilize team communication mediums like Slack or Microsoft Teams, and ticketing and issue tracking solutions such as Jira, BaseCamp,
-            or GitHub/GitLab. I excel at talent retention, 
-           in addition to the hiring of new talent into an existing team.
+            <h2 className="left-main">Frontend Development</h2>
+           <p className="coordinator">
+           I started with website development as a frontend developer, with a passion for design and the goal to master frontend development as well as back-end.
+            My skill set grew from the basic knowledge of HTML5 to CSS3 using these languages to create a sample website. I was interested in learning more that pushed me into
+            Javascript and React.js and advanced quickly into Node.js and Express.js working in groups with senior developers made me understand the full functionality of SCSS, Github, and API development.
+            which helped me to create a super fun and user-friendly website.
            </p>
         </div>
-           <div className="section-img">
+           <div className="sections-img">
             <img className="right-img" src="https://cdn-hosted-media.s3.amazonaws.com/hi-site/images/section-asset/shipping-package-monochrome.svg" alt=""/>
            </div>
          </main>

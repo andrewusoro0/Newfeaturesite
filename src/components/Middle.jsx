@@ -10,12 +10,11 @@ function Middle(){
             <img className="right-img" src="https://s3.amazonaws.com/cdn-hosted-media/hi-site/images/section-asset/server-woman-monochrome.svg" alt=""/>
            </div>
          <div className="head">
-            <h2 className="left-main">Project Coordinator</h2>
-           <p className="coordinator">Team LeadershipI tend to gravitate towards leadership roles in IT. I bring to the table strong experience leading distributed and local teams towards the victory line, spanning across multiple product types and industries.
-            I lean on my years of personal programming experience, as well as group and pair programming history, to help look ahead for potential road blocks or hurdles along the way. I am comfortable in communications with stakeholders
-            or client discussions, and help to foster a team culture to develop and release strong products. I utilize team communication mediums like Slack or Microsoft Teams, and ticketing and issue tracking solutions such as Jira, BaseCamp,
-            or GitHub/GitLab. I excel at talent retention, 
-           in addition to the hiring of new talent into an existing team.
+            <h2 className="left-main">Student Instructor</h2>
+           <p className="coordinator">
+           As a teacher, I was responsible for preparing lesson plans and educating students on the basic understanding of HTML5, CSS3, and Visual Studio Code. 
+           Assigning daily and weekly assignments, grading tests and documenting progress.
+            Instruct and monitor students in their programming progress. Help students learn and implement questioning and discussion techniques that promote student participation and knowledge acquisition.
            </p>
         </div>
          </main>

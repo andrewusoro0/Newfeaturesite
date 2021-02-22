@@ -11,7 +11,7 @@ html {
 .intro-text {
   text-align: center;
   color: #242424;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 2.5em;
   line-height: 1.1;
   margin: 0 0 3rem;
@@ -33,6 +33,12 @@ html {
   width: 58%;
 }
 
+.sections-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+
 .section-img {
   display: inline-block;
   vertical-align: middle;
@@ -44,6 +50,11 @@ html {
   display: block;
   margin: auto;
   height: auto;
+}
+
+.right-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .copywrite {
@@ -71,10 +82,107 @@ main {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: .5em .8em;
   text-align: center;
-  color: #000;
+  color: #242424;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.text-pdf {
+  color: #242424;
+}
+
+.download {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 1%;
+  margin-right: 600px;
+  margin-left: 600px;
+}
+
+.download .resume:hover {
+  background-color: #ccc;
+}
+
+.blog,
+.about,
+.contact {
+  display: -ms-grid;
+  display: grid;
+  height: 90vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+}
+
+.blog {
+  background: url(https://picsum.photos/200/300/?blur);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.about {
+  background: url(../images/francesco-de-tommaso-6Tb8YvfD-AU-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.contact {
+  background: url(https://picsum.photos/200/300/);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.email {
+  cursor: pointer;
+}
+
+.email:hover {
+  background-color: yellow;
+}
+
+.context-text {
+  padding: 0 0 10px;
+  font-family: Lora,serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0 0 1em;
+  color: #fff;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .download {
+    display: block;
+    margin: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .section-img {
+    display: block;
+  }
+  .head {
+    display: block;
+    width: 100%;
+  }
+  .sections-img {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
