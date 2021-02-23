@@ -5,7 +5,8 @@ Learning new components & element kicks ass. I want to inspire the passion for l
 # Link to this open source website 
 [ProtfolioWebsiteReactApp]()
 
-<img src="https://cdn-hosted-media.s3.amazonaws.com/hi-site/images/section-asset/hiker-man-monochrome.svg" alt="Andrew usoro image " />
+
+
 
 
 
