@@ -12,7 +12,7 @@ function Middle(){
          <div className="head">
             <h2 className="left-main">Student Instructor</h2>
            <p className="coordinator">
-           As a teacher, I was responsible for preparing lesson plans and educating students on the basic understanding of HTML5, CSS3, and Visual Studio Code. 
+           As a student Instructor, I was responsible for preparing lesson plans and educating students on the basic understanding of HTML5, CSS3, and Visual Studio Code. 
            Assigning daily and weekly assignments, grading tests and documenting progress.
             Instruct and monitor students in their programming progress. Help students learn and implement questioning and discussion techniques that promote student participation and knowledge acquisition.
            </p>
