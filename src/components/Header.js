@@ -7,7 +7,7 @@ function Header(){
         <>  
          <main>
          <div className="head">
-            <h2 className="left-main">Projects Co-ordinator</h2>
+            <h2 className="left-main">Project Co-ordinator</h2>
            <p className="coordinator">
            Took up a role as project coordinator to help the company project teams manage resources and information and assist with scheduling and planning meetings and project activities.
             The role included additional duties and responsibilities and require expertise in a specific area, such as IT.
